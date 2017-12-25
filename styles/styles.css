@@ -130,10 +130,29 @@ label:last-child {
 
 
 /* --------- table styles below here --------- */
+table, th, td {
+    border: 1px solid purple;
+    border-collapse: collapse;
+	
+}
+table {
+    width: 100%;
+}
 
+th {
+    height: 50px;
+}
 
 /* --------- unordered list styles below here --------- */
 
+ul {
+  list-style-type: none;
+  padding: 0%;
+  margin: 0%;
+  border-style: solid;
+  border-top:  double #ff0000;
+  border-bottom: thick dotted #ff0000;
+}
 
 /* --------- definition list styles below here --------- */
 
